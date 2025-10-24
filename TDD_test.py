@@ -1,5 +1,5 @@
 def test_read()
-    assert read(inventory.json) == '[ { "name": "Mechanical Keyboard", "price": 120.50, "count": 5 }, 
+    assert read(inventory.json) == [ { "name": "Mechanical Keyboard", "price": 120.50, "count": 5 }, 
 { "name": "Wireless Mouse", "price": 45.99, "count": 12 }, 
 { "name": "4K Monitor (27 inch)", "price": 349.00, "count": 3 }, 
 { "name": "RGB LED Strip", "price": 19.99, "count": 50 }, 
