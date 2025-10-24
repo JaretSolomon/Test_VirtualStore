@@ -4,7 +4,7 @@ def test_read()
 { "name": "4K Monitor (27 inch)", "price": 349.00, "count": 3 }, 
 { "name": "RGB LED Strip", "price": 19.99, "count": 50 }, 
 { "name": "Ergonomic Chair", "price": 280.75, "count": 1 } ]
-'
+
 
 def test_str()
     assert inventory.str() == print([['Mechanical Keyboard', 120.50, 5],
