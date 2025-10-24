@@ -1,3 +1,6 @@
+from inventory import read
+import inventory.json
+
 def test_read():
     assert read(inventory.json) == [ { "name": "Mechanical Keyboard", "price": 120.50, "count": 5 }, 
 { "name": "Wireless Mouse", "price": 45.99, "count": 12 }, 
